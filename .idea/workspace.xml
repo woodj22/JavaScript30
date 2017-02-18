@@ -28,8 +28,8 @@
           <file leaf-file-name="index-START.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/03 - CSS Variables/index-START.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.6006144">
-                  <caret line="38" column="5" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+                <state vertical-scroll-proportion="0.953917">
+                  <caret line="74" column="79" selection-start-line="74" selection-start-column="79" selection-end-line="74" selection-end-column="79" />
                   <folding />
                 </state>
               </provider>
@@ -42,8 +42,8 @@
           <file leaf-file-name="index-FINISHED.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/03 - CSS Variables/index-FINISHED.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.44526628">
-                  <caret line="37" column="5" selection-start-line="23" selection-start-column="4" selection-end-line="37" selection-end-column="5" />
+                <state vertical-scroll-proportion="0.7337278">
+                  <caret line="73" column="79" selection-start-line="65" selection-start-column="3" selection-end-line="73" selection-end-column="79" />
                   <folding />
                 </state>
               </provider>
@@ -218,16 +218,16 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/03 - CSS Variables/index-FINISHED.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.44526628">
-          <caret line="37" column="5" selection-start-line="23" selection-start-column="4" selection-end-line="37" selection-end-column="5" />
+        <state vertical-scroll-proportion="0.7337278">
+          <caret line="73" column="79" selection-start-line="65" selection-start-column="3" selection-end-line="73" selection-end-column="79" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/03 - CSS Variables/index-START.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6006144">
-          <caret line="38" column="5" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+        <state vertical-scroll-proportion="0.953917">
+          <caret line="74" column="79" selection-start-line="74" selection-start-column="79" selection-end-line="74" selection-end-column="79" />
           <folding />
         </state>
       </provider>
