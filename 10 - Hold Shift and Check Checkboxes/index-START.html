@@ -118,8 +118,12 @@ function handleCheck(e){
         checkBoxes.forEach(box =>{
             console.log(box);
 
-            if (box === this || box === lastChecked){
+            if (box === this || box === lastChecked){ /// this line means they can be checked in two lines.
+                inBetween = !inBetween;
+            }
 
+            if(inBetween){
+                box.checked = true;
             }
         });
     }
