@@ -18,28 +18,57 @@
     }
 
     // Regular
+    console.log('hello');
 
     // Interpolated
+    console.log('helloo    %s string !', 'dfd');
 
     // Styled
 
+   // console.log(' %c ia am soe grtea text', 'font-size:50px; text-shadow:10px 10px');
+
     // warning!
 
+    console.warn('ohnooo');
     // Error :|
+
+    console.error('shit');
 
     // Info
 
-    // Testing
+    console.info('df');
 
+    // Testing
+//This will throw an error if it is false, you dont need an if statement.
+    const p = document.querySelector('p');
+    console.assert( p.classList.contains('ouch'),  'This is wrong. ');
+//
     // clearing
 
+ //   console.clear()
+
     // Viewing DOM Elements
+// prints all the elements in th DOM.
+    console.dir(p);
 
     // Grouping together
 
+
+    console.clear();
+
+    dogs.forEach(dog => {
+
+       console.log('this is dog ${dog.name}') ;
+    });
+
     // counting
+    //Counts the number of usages.
+    console.count('Wes');
 
     // timing
+    
+    console.time('fetching data');
+    fetch('https://api.github.com/users/wesbos').then( data =>  data.json());
 
   </script>
 </body>
