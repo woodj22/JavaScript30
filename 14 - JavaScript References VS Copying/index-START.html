@@ -8,16 +8,21 @@
 
   <script>
     // start with strings, numbers and booleans
-
+    let age = 100;
+    let age2 = age;
     // Let's say we have an array
     const players = ['Wes', 'Sarah', 'Ryan', 'Poppy'];
 
     // and we want to make a copy of it.
 
+
+    const team = players;
+    console.log(players, team);
+
     // You might think we can just do something like this:
-
+    team[3] = 'lux';
     // however what happens when we update that array?
-
+        // it updates the both arrays with lux. pritty weird.
     // now here is the problem!
 
     // oh no - we have edited the original array too!
@@ -26,21 +31,47 @@
 
     // So, how do we fix this? We take a copy instead!
 
+    const team2 = players.slice();
+    // the slice makes a copy. pritty cool and wont update the players array/
+
     // one day
 
     // or create a new array and concat the old one in
 
+    const team3 = [].concat(players);
+    // the above  is weird but sure i will roll with it.
+
+
     // or use the new ES6 Spread
 
-    // now when we update it, the original one isn't changed
+    const team4 = [...players];
+    team4[3] = 'hehehe';
 
+    console.log(team4);
+
+    const team5 = Array.from(players);
+    // now when we update it, the original one isn't changed
+      // origanal is not changed.
     // The same thing goes for objects, let's say we have a person object
 
     // with Objects
 
+    //the same thing happens with objects.
+
+    const person = {
+        name : 'joe',
+        age : 22
+    }
+
     // and think we make a copy:
+    // this is only a reference so will change the orignal object.
+    const captain = person;
+    captain.number = 99;
 
     // how do we take a copy instead?
+
+    Object.assign({}, person, { number:99});
+    console.log(cap2);
 
     // We will hopefully soon see the object ...spread
 
